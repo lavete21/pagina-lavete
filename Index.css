@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.box {
+overflow: hidden;
+}
+
+
+
+.content {
+font-size: 15px;
+line-height: 20px;
+padding: 0 20px;
+text-align: justify;
+}
+
+
+
+.left {
+float: left;
+width: 50%;
+}
+
+
+
+.left .content {
+border-right: 5px solid #4BB495 ;
+}
+
+
+
+.right {
+float: right;
+width: 50%;
+}
+table {
+   border-collapse: separate;
+   border-spacing: 5px;
+   background: #000 url("gradient.gif") bottom left repeat-x;
+   color: #fff;
+}
+td, th {
+   background: #fff;
+   color: #12651F;
+}
